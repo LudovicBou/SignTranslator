@@ -1,0 +1,150 @@
+#prototype{
+  background: #fbfbfb;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: block;
+  text-align: center}
+
+#prototype .head{
+  width: 220px;
+  margin: 0 auto}
+
+#prototype .head img{width: 100%}
+
+#prototype h2{
+  padding-bottom: 0;
+  margin-bottom: 0}
+
+#prototype .output-container h2{
+  color: #fff;
+  position: absolute;
+  top: -25px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  padding: 0}
+
+#prototype canvas{
+  width: 100% !important;
+  height: 100% !important}
+
+#prototype #activatecam{
+  background: #000;
+  color: #0000ff;
+  font-weight: bold;
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+  margin: 50px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #0000ff;
+  cursor: pointer;
+  transition: 1s}
+
+#prototype #activatecam:hover{
+  border-color: #fff;
+  color: #fff;
+  transition: 1s}
+
+#prototype .output-container{
+  padding-bottom: 35px !important;
+  background: #0000ff;
+  position: relative}
+
+#prototype .input-container{
+  background: #000;
+  position: relative;
+  height: 100px}
+
+#prototype .center-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap}
+
+#prototype .right-container{
+  display: flex;
+  justify-content: flex-end}
+
+#prototype .letters-container{
+  width: 100px;
+  margin: 20px}
+
+#prototype .exampereset-container{
+  margin: 10px 0;
+  width: 100px;
+  font-size: 10px}
+
+#prototype .exampereset-container span{
+  font-style: italic}
+
+#prototype .exampereset-container button{
+  background: none !important;
+  color: #0000ff;
+  border: none; 
+  text-decoration: underline;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer;
+  text-transform: uppercase}
+
+#prototype .train-button{
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  white-space: pre;
+  border: none;
+  cursor: pointer;
+  background: grey}
+
+#prototype .train-button:active{
+  background: #0000cc}
+
+#prototype .train-button:hover{
+  background: #0000ff}
+
+#prototype .progress{
+  position:relative;
+  width: 100px;
+  height: 100px;
+  background: gray}
+
+#prototype .progress img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2}
+
+#prototype .progress .progress-bar{
+  min-height: 100px;
+  width: 0%;
+  display: inline-block;
+  background: #0000ff}
+
+#prototype .progress .progress-text{
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0}
+
+#prototype .row::after{
+  content: "";
+  clear: both;
+  display: block}
+
+#prototype [class*="col-"] {
+  float: left}
+
+#prototype .col-3 {width: 30vw;height: 22.5vw}
+
+@media only screen and (max-width: 1024px) {
+  #prototype .col-3 {width: 50vw;height: 37.5vw}
+}

@@ -1,0 +1,156 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+*{
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box}
+
+body{
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  color: rgba(0, 0, 0, .85);
+  font-size: 20px;
+  line-height: 1.4}
+
+h1, h2, p, #me, .classicWidth, ol, ul{
+  max-width: 740px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto}
+
+h1,h2, p{margin: 40px auto}
+
+ol,ul{
+  padding-left: 100px;
+}
+
+abbr{
+  position: relative}
+
+abbr:hover::after {
+  position: absolute;
+  top:100%;
+  left: 0;
+  display: block;
+  padding: .5em;
+  color: #fff;
+  background: #0000ff;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  letter-spacing: -.02em;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  content: attr(title)}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 9vw;
+  line-height: 0.8em;
+  font-weight: normal}
+
+h2{
+  --x-height-multiplier: 0.342;
+  --baseline-multiplier: 0.22;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  letter-spacing: -.02em;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0;
+  font-size: 34px;
+  line-height: 1.15;
+  letter-spacing: -.015em}
+
+p, ol, ul{
+  --x-height-multiplier: 0.375;
+  --baseline-multiplier: 0.17;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.58;
+  letter-spacing: -.003em}
+
+#me{
+  max-width: 700px;
+  line-height: 20px;
+  font-size: 16px;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding: 20px 0;
+  padding-right: 80px;
+  --x-height-multiplier: 0.342;
+  --baseline-multiplier: 0.22;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  letter-spacing: -.02em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-transform: translateY(1.52px);
+  transform: translateY(1.52px);
+  color: rgba(0, 0, 0, .55)}
+
+#me span{
+  color: rgba(0, 0, 0, .85)}
+
+.figureImage{
+  width: 80vw;
+  height: auto;
+  display: block;
+  margin: 0 auto}
+
+.figureImage img{
+  width: 100%;
+  height: auto}
+
+.figureYoutube{
+  width: 80vw;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  display: block;
+  margin: 0 auto}
+
+.figureYoutube iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute}
+
+.caption{
+  text-align: center;
+  margin: 10px auto 0;
+  --x-height-multiplier: 0.342;
+  --baseline-multiplier: 0.22;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  letter-spacing: -.02em;
+  font-weight: 300;
+  font-style: normal;
+  font-feature-settings: "liga" on, "lnum" on;
+  -moz-font-feature-settings: "liga" on, "lnum" on;
+  -webkit-font-feature-settings: "liga" on, "lnum" on;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(0, 0, 0, .70);
+  letter-spacing: 0}
+
+a{
+  color: #0000ff;
+  text-decoration: none;
+  transition: 1s}
+  
+a:hover{
+  opacity: .5;
+  transition: 1s}
